@@ -19,8 +19,10 @@ CREATE DATABASE photogallery_app;
 CREATE USER your_username WITH PASSWORD 'your_password';
 GRANT ALL PRIVILEGES ON DATABASE  photogallery_app TO your_username;
 
+ดูว่ามีอะไรในdatabase
+\du 
 -- ออกจาก console
-\q
+ใช้ \q
 
 ติดตั้ง package 
 npm install
